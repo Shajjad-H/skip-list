@@ -4,7 +4,7 @@
 #include "SkipList.h"
 #include <iostream>
 
-// inplementation of Cellule
+// implementation of Cellule
 template <typename DataType>
 Cellule<DataType>::Cellule()
 {
@@ -51,7 +51,7 @@ Cellule<DataType> *Cellule<DataType>::etage(const tailleDesTabs n_etage) const
 
 /* 
 --------------------------------------------
-    inplementation of SkipList
+    implementation of SkipList
 --------------------------------------------
 */
 template <typename DataType>
